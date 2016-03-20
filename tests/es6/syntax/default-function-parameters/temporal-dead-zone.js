@@ -2,7 +2,7 @@
 
 var assert = require('assert');
 
-(function(x = 1) {
+(function() {
     assert.throws(function() {
         eval('(function(a=a){}())');
     }, /ReferenceError: a is not defined/);
