@@ -16,4 +16,5 @@ function g(n) {
     return f(n - 1);
 }
 
-assert(f(1e6) === 'foo' && f(1e6 + 1) === 'bar');
+assert(f(1e6) === 'foo')
+assert(f(1e6 + 1) === 'bar');
