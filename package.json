@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/thefourtheye/es6-in-node#readme",
   "devDependencies": {
-    "eslint": "^2.5.3"
+    "eslint": "^2.6.0"
   }
 }
